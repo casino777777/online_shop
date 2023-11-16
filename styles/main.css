@@ -99,6 +99,7 @@ footer {
 .card__prices {
   display: flex;
   margin-bottom: 10px;
+  justify-content: space-between;
 }
 
 .card__price::after {
@@ -112,6 +113,7 @@ footer {
   font-size: 19px;
   color: #414141;
   display: flex;
+  justify-content: start;
   flex-wrap: wrap-reverse;
 }
 
